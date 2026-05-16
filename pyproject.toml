@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "olrgu"
+version = "1.0.0"
+description = "局域网文件分享工具 - 简洁、高效的本地文件服务器，支持文件预览和密码保护"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = [
+    "customtkinter>=5.2.0",
+]
+
+[project.scripts]
+olrgu = "olrgu.app:main"
+
+[tool.setuptools.packages.find]
+include = ["olrgu*"]
+
+[tool.setuptools.package-data]
+"olrgu" = ["resources/*"]
