@@ -24,13 +24,7 @@
 pip install olrgu
 ```
 
-**方式二：本地安装 wheel**
-
-```bash
-pip install E:\PC\olrgu-whl\dist\olrgu-1.0.0-py3-none-any.whl
-```
-
-**方式三：从源码构建**
+**方式二：从源码构建**
 
 ```bash
 cd E:\PC\olrgu-whl
